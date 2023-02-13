@@ -41,8 +41,8 @@ class _HomeState extends State<Home> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("ORIGINAL PRICE", style: TextStyle(fontSize: 25)),
-                      Align(alignment: Alignment.centerRight,child: Text("$OR Rs.", style: TextStyle(fontSize: 25))),
+                      Text("ORIGINAL PRICE", style: TextStyle(fontSize: 20)),
+                      Align(alignment: Alignment.centerRight,child: Text("$OR Rs.", style: TextStyle(fontSize: 20))),
                     ],
                   ),
                 ),
@@ -150,9 +150,9 @@ class _HomeState extends State<Home> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("FINAL PRICE", style: TextStyle(fontSize: 25)),
+                      Text("FINAL PRICE", style: TextStyle(fontSize: 20)),
                       //SizedBox(width: 75,),
-                      Align(alignment: Alignment.centerRight,child: Text("$FP Rs.", style: TextStyle(fontSize: 25))),
+                      Align(alignment: Alignment.centerRight,child: Text("$FP Rs.", style: TextStyle(fontSize: 20))),
                     ],
                   ),
                 ),
